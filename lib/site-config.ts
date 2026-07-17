@@ -5,7 +5,7 @@
 
 export const profile = {
   name: "Emmanuel Anyaka",
-  initials: "DO",
+  initials: "EA",
   role: "Founder & Creative Director",
   brand: "Emmanuel",
   location: "Owerri, Nigeria",
