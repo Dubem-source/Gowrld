@@ -47,7 +47,7 @@ export default function ContactPage() {
     <main>
       <Navbar />
 
-      <section className="container-x pb-16 pt-36 sm:pt-44">
+      <section className="container-x pb-16 pt-24 sm:pt-44">
         <p className="eyebrow mb-4">Contact</p>
         <h1 className="max-w-2xl font-display text-5xl leading-[1.02] tracking-tight sm:text-6xl">
           Tell me about the brand, the budget, and the date.
