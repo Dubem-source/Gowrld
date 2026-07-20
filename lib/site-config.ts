@@ -35,13 +35,14 @@ export const rating = {
 };
 
 export const contact = {
-  email: "hello@megacious.style",
+  email: "echigozirim268@gmail.com",
   phone: "+234 8083818398",
   whatsappNumber: "2348083818398", // digits only, country code first, no +
   whatsappMessage:
     "Hi Emmanuel — I found your portfolio and I'd like to talk about a collaboration.",
+  whatsappWaitlist: "https://chat.whatsapp.com/LWnV3hFk5MWD4r9hYCq11r?s=cl&p=a&mlu=4",
   tiktok: "https://www.tiktok.com/@_marnuel",
-  tiktokHandle: "@megacious",
+  tiktokHandle: "@_marnuel",
 };
 
 export const services = [
@@ -73,48 +74,55 @@ export const services = [
 
 export const pricing = [
   {
-    name: "Consultation",
-    price: "150",
+    name: "Join GØWRLD Waitlist",
+    price: "Free",
+    period: "",
+    description: "Secure your spot in the Goward community waitlist group.",
+    isWaitlist: true,
+    cta: "Join Group",
+    link: "https://chat.whatsapp.com/LWnV3hFk5MWD4r9hYCq11r?s=cl&p=a&mlu=4",
+  },
+  {
+    name: "PR Packaging",
+    price: "$150–500+",
+    period: "/ project",
+    description: "Premium physical presentation and outreach assets for press kits and influencers.",
+    cta: "Inquire",
+  },
+  {
+    name: "Creative Direction (Content Shoot)",
+    price: "$300–1,000+",
+    period: "/ project",
+    description: "On-set visual direction, mood boards, lighting style, and concept development.",
+    cta: "Inquire",
+  },
+  {
+    name: "Creative Direction (Music Video)",
+    price: "$500–3,000+",
+    period: "/ project",
+    description: "Full conceptual planning, aesthetic framework, shot lists, and pacing oversight.",
+    cta: "Inquire",
+  },
+  {
+    name: "Fashion Styling",
+    price: "$100–500+",
     period: "/ session",
-    description:
-      "A focused hour on styling, sourcing, or getting a small label off the ground.",
-    features: [
-      "60-minute video or in-person call",
-      "Written summary & action list",
-      "3 days of follow-up messages",
-    ],
-    featured: false,
-    cta: "Book a session",
+    description: "Curated outfit selection, fit adjustments, accessories, and aesthetic alignment.",
+    cta: "Inquire",
   },
   {
-    name: "Brand Collaboration",
-    price: "Custom",
-    period: "quote",
-    description:
-      "For clothing brands who want my styling on their next drop or campaign.",
-    features: [
-      "Look development & styling",
-      "On-set direction (half or full day)",
-      "Usage rights for one campaign",
-      "Revisions until it's right",
-    ],
-    featured: true,
-    cta: "Start a collab",
+    name: "Creative Campaign Planning",
+    price: "$300–1,500+",
+    period: "/ campaign",
+    description: "Full end-to-end strategic visual outline, timeline, and rollout logistics.",
+    cta: "Inquire",
   },
   {
-    name: "Campaign Direction",
-    price: "800",
-    period: "/ day",
-    description:
-      "Full creative direction for a shoot — styling, set, and shot list.",
-    features: [
-      "Pre-production & mood board",
-      "Full-day, on-location direction",
-      "Raw + edited select delivery",
-      "Priority scheduling",
-    ],
-    featured: false,
-    cta: "Check availability",
+    name: "Speaking at Creative/Fashion Events",
+    price: "$250–2,000+",
+    period: "/ event",
+    description: "Keynote, panel discussion, or workshop presentation on fashion and creative direction.",
+    cta: "Inquire",
   },
 ];
 

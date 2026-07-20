@@ -21,17 +21,26 @@ export function FooterSection() {
             </h2>
             <div className="mt-8 flex flex-wrap gap-4">
               <a
-                href={whatsappHref}
+                href={contact.whatsappWaitlist}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-[#25D366] px-5 py-3 font-mono text-[12px] uppercase tracking-[0.14em] text-white transition-transform hover:scale-105"
+              >
+                <WhatsAppIcon className="h-4 w-4" />
+                Join Goward Waitlist
+              </a>
+              <a
+                href={whatsappHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full border border-bone/25 px-5 py-3 font-mono text-[12px] uppercase tracking-[0.14em] transition-colors hover:border-bone hover:bg-bone/5"
               >
                 <WhatsAppIcon className="h-4 w-4" />
                 WhatsApp me
               </a>
               <a
                 href={`mailto:${contact.email}`}
-                className="inline-flex items-center gap-2 rounded-full border border-bone/25 px-5 py-3 font-mono text-[12px] uppercase tracking-[0.14em] transition-colors hover:border-bone"
+                className="inline-flex items-center gap-2 rounded-full border border-bone/25 px-5 py-3 font-mono text-[12px] uppercase tracking-[0.14em] transition-colors hover:border-bone hover:bg-bone/5"
               >
                 <Mail className="h-4 w-4" />
                 Email me
