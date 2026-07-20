@@ -5,7 +5,7 @@ import { profile, rating } from "@/lib/site-config";
 
 export function Hero() {
   return (
-    <section className="relative flex min-h-[100svh] flex-col justify-end overflow-hidden pt-28">
+    <section className="relative flex min-h-[100svh] flex-col justify-end overflow-hidden pt-20 sm:pt-28">
       {/* Signature element: a fabric-ribbon animation stitched across the hero,
           standing in for the founder's own tape measure / cut of cloth. */}
       <div className="absolute inset-0">
@@ -28,7 +28,7 @@ export function Hero() {
           {profile.name}
         </h1>
 
-        <div className="mt-8 flex flex-col gap-8 sm:flex-row sm:items-end sm:justify-between">
+        <div className="mt-4 sm:mt-8 flex flex-col gap-8 sm:flex-row sm:items-end sm:justify-between">
           <p className="max-w-md text-lg text-ink/75 dark:text-bone/75">
             {profile.tagline}
           </p>
@@ -49,7 +49,7 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 border-t border-ink/10 pt-6 dark:border-bone/10">
+        <div className="mt-6 sm:mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 border-t border-ink/10 pt-6 dark:border-bone/10">
           <div className="flex items-center gap-2">
             <div className="flex">
               {Array.from({ length: 5 }).map((_, i) => (
